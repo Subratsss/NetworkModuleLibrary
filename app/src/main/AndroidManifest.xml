@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.androhub.retrofit.baseurl"
+            android:value="https://www.androhub.com"/>
+
     </application>
 
 </manifest>
