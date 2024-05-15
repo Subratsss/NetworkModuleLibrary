@@ -7,11 +7,8 @@
  * Last modified 12/02/24, 2:11 pm
  */
 
-package com.androhub.networkmodule
+package com.subratsss.networkmodule
 
-import android.content.Context
-import android.content.pm.PackageManager
-import android.util.Log
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
