@@ -4,3 +4,10 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     alias(libs.plugins.android.library) apply false
 }
+buildscript {
+    repositories {
+        google() // For Google's Maven repository
+        // Other repositories if needed
+    }
+
+}
