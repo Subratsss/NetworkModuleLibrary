@@ -68,5 +68,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(project(":networkmodule"))
+   // implementation(project(":networkmodule"))
+    implementation(libs.networkmodulelibrary)
 }
